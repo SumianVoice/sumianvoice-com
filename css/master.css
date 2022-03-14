@@ -1,3 +1,7 @@
 body {
-  background: #333;
+  background: #33333a;
+}
+* {
+  font-family: arial;
+  color: #aaa;
 }
