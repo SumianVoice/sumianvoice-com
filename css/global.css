@@ -33,7 +33,7 @@
 
 @font-face {
   font-family: 'ShareTechMono';
-  src: url('/css4/fonts/ShareTechMono-Regular.ttf') format('truetype');
+  src: url('../fonts/ShareTechMono-Regular.ttf') format('truetype');
 }
 
 .blue {
