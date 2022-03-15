@@ -1,0 +1,138 @@
+
+.header {
+  min-height: 100px;
+  height: 100px;
+  background-position: top;
+  box-shadow: 0px 1px 1px var(--);
+}
+
+.cv-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.cv-header h1 {
+  margin-top: 20px;
+  padding: 0 80px 0 80px;
+  background: var(--highlight);
+  box-shadow: var(--shadowlight);
+  align-self: center;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.icon {
+  height: 2rem;
+  width: auto;
+  box-shadow: none;
+  margin-right: 1rem;
+  border-radius: 0;
+}
+
+.cv-grid-main {
+  /* top: 60px; */
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1.2fr;
+}
+.cv-grid-item {
+  display: block;
+  background: var(--dark);
+}
+.cv-grid-item ul li {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  background: var(--highlight);
+  margin: 2px;
+  padding: 4px;
+  /* box-shadow: var(--shadowlight), inset 1px 1px 1px 0px #FEF9D7; */
+  transition: all 0.2s ease-in-out;
+}
+
+.cv-hover p {
+  display: flex;
+  line-height: 1.3rem;
+  min-height: 1.6rem;
+  /* height: 100%; */
+  align-items: center;
+}
+.cv-hover ul li:hover {
+  padding-left: 30px;
+  border-radius: 15px;
+  background: var(--highlight3);
+  transition: all 0.2s ease-in-out;
+}
+.cv-hover ul li p:nth-child(odd) {
+  background: var(--dark2);
+  border-radius: 5px;
+  font-weight: 900;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-shadow: var(--shadowlight);
+  box-shadow: var(--shadowinset), var(--shadowhighlight);
+}
+.cv-hover ul li p:nth-child(even) {
+  justify-content: flex-end;
+  align-self: center;
+  border-radius: 5px;
+  background: var(--dark3);
+  margin: 2px;
+  padding: 4px;
+  transition: all 0.2s ease-in-out;
+}
+.cv-hover ul li:hover p:nth-child(even) {
+  background: var(--glowbg2);
+  transition: all 0.2s ease-in-out;
+}
+.cv-grid-item ul a {
+  text-decoration: none;
+}
+
+.cv-traits div {
+  display: flex;
+  font-size: 0.7rem;
+  flex-direction: row;
+  /* margin-right: 2rem; */
+}
+.cv-traits .sqr {
+  display: flex;
+  line-height: 1.3rem;
+  min-height: 1.6rem;
+  /* height: 100%; */
+  align-items: center;
+}
+.cv-traits .sqr {
+  background: var(--dark2);
+  border-radius: 4px;
+  box-shadow: var(--shadowhighlight), inset var(--shadowlight);
+}
+.sqr-grn, .sqr-emp {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 4px;
+  margin-left: 4px;
+  background: var(--highlight1p5);
+}
+.sqr-grn {
+  background: var(--green);
+  box-shadow: var(--shadowlight), inset var(--shadowhighlight);
+}
+.sqr-emp {
+  /* background: none; */
+  box-shadow: var(--shadowlight), inset var(--shadowhighlight);
+}
+
+
+@media (width < 1000px) {
+  .cv-grid-main {
+    grid-template-columns: 1fr;
+  }
+}
+@media (width < 780px) {
+  .cv-header h1 {
+    font-size: 2rem;
+    padding: 0 20px 0 20px;
+    width: auto;
+  }
+}
