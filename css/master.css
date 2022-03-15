@@ -18,7 +18,7 @@ body {
   transform: translate(-40px);
   border-radius: 10px;
   /* background-color: #5af; */
-  background-color: #aaa;
+  background-color: #667;
   color: #fff;
   background-image: url("../img/header.jpg");
   background-size: cover;
@@ -96,7 +96,6 @@ img {
   background: #aaa;
 }
 .body-section:not(#subtitle) {
-  background-color: #ddd;
   min-height: 80px;
   margin-top: 20px;
   border-radius: 20px;
@@ -109,7 +108,14 @@ img {
   font-size: 1.2rem;
   padding: 10px 20px 10px 20px;
   border-radius: 0 0 20px 20px;
-  box-shadow: 5px 5px 10px #22222260;
+  box-shadow: 5px 5px 10px #22222260, inset 1px 1px 5px #ffffffff;
+  transition: all 0.5s ease-in-out;
+}
+.body-section:hover:not(#subtitle) {
+  background-color: #eeeeee;
+  /* width: calc(500px - 40px + 20px); */
+  transform: translate(-30px);
+  padding: 10px 40px 10px 40px;
 }
 #subtitle {
   text-align: center;
@@ -163,7 +169,7 @@ img {
 }
 
 .roundbox {
-  background-color: #30ee80;
+  background-color: #444;
   background-image: url("../img/sumibanner.png");
   background-size: contain;
   box-shadow: 6px 6px 5px #22223050, inset -6px -6px 5px #22223080, inset 2px 2px 10px #ffffff88;
