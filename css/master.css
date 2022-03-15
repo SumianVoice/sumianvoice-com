@@ -178,6 +178,7 @@ img {
 }
 .nav-bar > ul > li > a p {
   padding: 5px;
+  font-family: 'ShareTechMono', arial;
 }
 .nav-bar > ul > li > a img {
   max-height: 30px;

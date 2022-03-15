@@ -79,7 +79,7 @@ a {
 }
 
 html{
-  font-family: 'ShareTechMono', arial, monospace;
+  font-family: arial, monospace;
   /* box-sizing: border-box; */
   background: var(--background);
   color: var(--light);
