@@ -109,13 +109,13 @@ img {
   padding: 10px 20px 10px 20px;
   border-radius: 0 0 20px 20px;
   box-shadow: 5px 5px 10px #22222260, inset 1px 1px 5px #ffffffff;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 .body-section:hover:not(#subtitle) {
   background-color: #eeeeee;
   /* width: calc(500px - 40px + 20px); */
-  transform: translate(-30px);
-  padding: 10px 40px 10px 40px;
+  /* transform: translate(-30px); */
+  /* padding: 10px 40px 10px 40px; */
 }
 #subtitle {
   text-align: center;
