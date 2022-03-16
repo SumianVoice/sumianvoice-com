@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/master.css">
     <link rel="stylesheet" href="css/cv-style.css">
     <script src="js/main.js" charset="utf-8"></script>
+    <script src="js/cookies.js" charset="utf-8"></script>
     <title>SumianVoice Lessons</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta content="SumianVoice" property="og:site_name">
@@ -23,16 +24,43 @@
     <meta property="theme-color" content="#303035">
   </head>
   <body>
-    <div class="grid-wrap">
-      <div class="">
+    <div class="onopenoverlay" id="greeter" style="visibility:hidden;">
+      <div class="vertstripe2"></div>
+      <div class="vertstripe"></div>
+
+      <div class="vertcentre">
+        <span class="centre">
+          <h1><b>Sumi</b>anVoice</h1>
+          <h2>Gender voice modification coach</h2>
+          <p>I like helping people develop a voice that makes them happy ❤️</p>
+          <button type="button" name="button" onclick="closeGreeter()">more info</button>
+          <div class="" style="opacity:0.3;">
+            <p></p>
+          </div>
+        </span>
       </div>
+    </div>
+
+    <div class="onopenoverlay" style="z-index:-1;background-color:#445;filter:none;">
+      <div class="horistripe2"></div>
+      <div class="horistripe"></div>
+    </div>
+
+    <div class="grid-wrap">
+
+      <script type="text/javascript">
+        // checkCookie();
+        // document.getElementById("greeter").style.visibility = "visible";
+        checkNew();
+      </script>
+
       <!-- body -->
       <div class="body">
 
         <div id="header-wrap">
 
           <div class="header-wrap-inner">
-            <h1 class="header">SumianVoice</h1>
+            <span class="header"><b>Sumi</b>anVoice</span>
           </div>
 
         </div>
@@ -48,26 +76,30 @@
             </ul>
           </div>
 
-          <div class="">
-            <h2 class="roundbox">Sumi</h2>
-          </div>
-          <h4 class="centre">Trans Voice Coach</h4>
-          <p><i>specialising in feminisation</i> </p>
+          <!-- <div class="" style="visibility:visible;">
+            <div class="bgbox"><h2 class="roundbox sumibox">Sumi</h2></div>
+          </div> -->
+          <br>
+          <h2 style="margin-top:0px;margin-bottom:10px;"><span class="centre">Trans Voice Teacher</span></h2>
+          <p>I offer lessons on feminisation, androgynisation and masculinisation. <br>My passion is helping people get a voice that makes them happy <br><br>❤️<br></p>
+          <br>
+          <p>I have experience in the main components as well as advanced features like mimicry of microbehaviours, onsets and offsets, speech patterns and so on. I run workshops and practice sessions on Discord.<br><br>Come join! :)</p><br>
+
         </div>
 
         <div class="body-section">
           <h2 class="centre">Lessons</h2>
-          <p class="centre"><b>Where to get lessons</b></p>
-          <p>I offer private lessons on Ko-fi! These are affordable, and hosted on Discord (link below)</p>
-          <div class="" style="margin: 10px 0 10px 0;">
+          <p class="">I offer private lessons on Ko-fi! These are affordable, can be private or public, and are hosted on Discord</p><br>
+          <p class="">I also give out free lessons randomly each week so there's a (small) chance you can catch one of those!</p>
+          <div class="" style="">
             <a href="https://www.youtube.com/channel/UCq_CN_v2uFIC_Zg_RvRr8Fw" target="_blank" rel="noopener noreferrer"><img src="img/kofiprev.png" alt="youtube channel"> </a>
           </div>
         </div>
 
         <div class="body-section">
           <h2 class="centre">Discord</h2>
-          <p class="centre">Join my server! It's fun to hang out with other voice enthusiasts and I run workshops too. </p>
-          <div class="" style="margin: 10px 0 10px 0;">
+          <p class="">Join my server! It's fun to hang out with other voice enthusiasts and I run workshops too. </p>
+          <div class="" style="">
             <a href="https://discord.gg/ahc5hb9zSk" target="_blank" rel="noopener noreferrer"><img src="img/discordprev.png" alt="discord server"> </a>
           </div>
         </div>
@@ -76,7 +108,7 @@
           <h2 class="centre">Resources</h2>
           <p class="">There is a wiki subdomain with a lot of voice resources found <a href="https://wiki.sumianvoice.com" target="_blank" rel="noopener noreferrer">here</a>. </p>
 
-          <div class="" style="margin: 10px 0 10px 0;">
+          <div class="" style="">
             <a href="https://wiki.sumianvoice.com" target="_blank" rel="noopener noreferrer"><img src="img/wikisml.png" alt="preview of wiki"></a>
           </div>
 
@@ -86,7 +118,7 @@
         <div class="body-section">
           <h2 class="centre">YouTube</h2>
           <p class="centre">I make videos too :)</p>
-          <div class="" style="margin: 10px 0 10px 0;">
+          <div class="" style="">
             <a href="https://www.youtube.com/channel/UCq_CN_v2uFIC_Zg_RvRr8Fw" target="_blank" rel="noopener noreferrer"><img src="img/youtubeprev.png" alt="youtube channel"> </a>
           </div>
         </div>
