@@ -14,8 +14,8 @@ body > .onopenoverlay:not(#greeter) {
   margin: auto;
   position: absolute;
   width: 100vw;
-  height: 30vh;
-  margin-top: calc(60vh);
+  height: 35vh;
+  margin-top: calc(40vh);
   /* height: 100vh; */
   position: absolute;
   /* z-index: 900; */
@@ -33,7 +33,7 @@ ffeef5 pink
   margin: auto;
   position: absolute;
   width: 100vw;
-  height: 60vh;
+  height: 40vh;
   margin-top: 0;
   position: absolute;
   /* z-index: 900; */
