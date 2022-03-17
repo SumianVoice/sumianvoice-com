@@ -44,7 +44,7 @@ function closeGreeter() {
   // greeter.style.visibility = "hidden";
   requestAnimationFrame(function(timestamp){
       starttime = timestamp || new Date().getTime() //if browser doesn't support requestAnimationFrame, generate our own timestamp using Date
-      greeterFade(timestamp, greeter, 1000, 500) // 400px over 1 second
+      greeterFade(timestamp, greeter, 1, 600) // 400px over 1 second
   })
 }
 
@@ -55,8 +55,9 @@ function greeterFade(timestamp, el, dist, duration){
     var runtime = timestamp - starttime
     var progress = runtime / duration
     // progress = Math.min(progress, 1)
-    greeter.style.transform = "translateY(" + (-progress*100) + "vh)";
-    greeter.style.opacity = (1-progress);
+    greeter.style.transform = "translateX(" + (-progress*100) + "vw)";
+    greeter.style.opacity = (2-progress*3);
+    // greeter.style.filter = "brightness(" + (100 - progress*50) + ")";
     if (runtime < duration){ // if duration not met yet
         requestAnimationFrame(function(timestamp){ // call requestAnimationFrame again with parameters
             greeterFade(timestamp, el, dist, duration)
