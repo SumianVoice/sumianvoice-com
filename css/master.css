@@ -7,6 +7,9 @@
 } */
 
 /* background */
+p {
+  margin-bottom: 14px;
+}
 body > .onopenoverlay:not(#greeter) {
   filter: brightness(80%);
 }
