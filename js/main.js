@@ -13,17 +13,17 @@ function copyEmail() {
   alert("Copied the email: " + copyText.value);
 }
 
-// function checkCookie() {
-//   let hasVisited = getCookie("hasVisited");
-//   if (hasVisited == "true") {
-//     console.log("welcome back");
-//   }
-//   else {
-//     hasVisited = "true";
-//     setCookie("hasVisited", hasVisited, 365);
-//     document.getElementById("greeter").style.visibility = "visible";
-//   }
-// }
+function checkCookie() {
+  let hasVisited = getCookie("hasVisited");
+  if (hasVisited == "true") {
+    console.log("welcome back");
+  }
+  else {
+    hasVisited = "true";
+    setCookie("hasVisited", hasVisited, 365);
+    document.getElementById("greeter").style.visibility = "visible";
+  }
+}
 
 function checkNew() {
   let url = (window.location.href);

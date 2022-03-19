@@ -1,14 +1,12 @@
-/* body {
-  background: #33333a;
-}
+
 * {
   font-family: arial;
-  color: #aaa;
-} */
+}
 
 /* background */
 p {
   margin-bottom: 14px;
+  color: #889;
 }
 body > .onopenoverlay:not(#greeter) {
   filter: brightness(80%);
@@ -185,7 +183,7 @@ img {
 /* 6px */
 .body-section {
   background-color: #fff;
-  color: #555;
+  /* color: #555; */
   width: calc(700px - 40px + 20px);
   transform: translate(-10px);
   font-size: 1.4rem;
@@ -243,8 +241,9 @@ img {
   height: 100%;
   overflow: hidden;
 }
-.nav-bar > ul > li > a p {
+.nav-bar > ul > li > a > p {
   padding: 5px;
+  color: inherit;
   /* font-family: 'ShareTechMono', arial; */
 }
 .nav-bar > ul > li > a img {
