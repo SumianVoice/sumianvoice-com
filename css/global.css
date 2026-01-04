@@ -114,12 +114,13 @@ img {
   display: block;
 }
 
-/* h1, h2, h3, h4, h5, h6 {
+/*
+h1, h2, h3, h4, h5, h6 {
   color: var(--yellow);
   font-weight: 900;
-  /* text-shadow: var(--shadow); */
-  /* text-indent: 2rem; */
-} */
+}
+*/
+
 h1 {font-size: 3rem;}
 h2 {font-size: 2rem;}
 h3 {font-size: 1.5rem;}
@@ -448,4 +449,5 @@ p {
   }
   .nav-main ul li a{
     font-size: 1.1rem;
+  }
 }

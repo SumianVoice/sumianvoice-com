@@ -13,24 +13,9 @@ function copyEmail() {
   alert("Copied the email: " + copyText.value);
 }
 
-function checkCookie() {
-  let hasVisited = getCookie("hasVisited");
-  if (hasVisited == "true") {
-    console.log("welcome back");
-    return true;
-  }
-  else {
-    hasVisited = "true";
-    setCookie("hasVisited", hasVisited, 365);
-    console.log("added cookie");
-    // document.getElementById("greeter").style.visibility = "visible";
-    return false;
-  }
-}
-
 function checkNew() {
   let url = (window.location.href);
-  if (url.endsWith("#") && checkCookie()) {
+  if (url.endsWith("#")) {
     document.getElementById("greeter").style.visibility = "hidden";
   }
   else {

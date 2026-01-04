@@ -23,7 +23,7 @@ body > .onopenoverlay:not(#greeter) {
   opacity: 90%;
   /* pink */
   /* background-color: #ffeef5; */
-  background-color: #bf95b8;
+  background-color: #ded0bf;
   box-shadow: 5px 5px 40px #22222260;
 }
 /*
