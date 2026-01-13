@@ -1,0 +1,19 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+The date is 2026 01 13, this is to verify that the account https://x.com/sumianvoice is under my control. I will post the fingerprint of this public key on that profile to prove this:
+0C8DE633E1BD18F32092D60665BD422D1C18C431
+
+This document is signed with this key, and hosted on the domain `sumianvoice.com`.
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCgAdFiEEDI3mM+G9GPMgktYGZb1CLRwYxDEFAmll+PsACgkQZb1CLRwY
+xDHToAf+Je3vQw02gOU2bot9DwafUmr7X7yIiPtFK9IoZedFZFJ6/P5SeejUfLI3
+s7+dNLcqFwpT4xnMBAfCx4t85C65AjWA9T8leXIPTxhXCkSqqUH3Owto5FhbwTtF
+44I0in4yPXxUcdjhgR1PexMT2vEVGmmgkroorH+xctF4Q6NNjUbo285XKS31LGNz
+TJuEt+WGHosxhDJgcGRpWlJdC3DnIA+ch91BEr9PwpT0Jnmwin3UfyjILIrq4uA/
+P1B2Aeo5CNECLL7juEHNtZmo+Spq/EYnMAtQ2tc5GKbQrZFjWE/q2T9nhp1rFyNW
+0zl3L7K4x2nxxnln79YBpZyOsTIGVA==
+=yRzT
+-----END PGP SIGNATURE-----
+
